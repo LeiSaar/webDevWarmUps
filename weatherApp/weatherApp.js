@@ -1,17 +1,7 @@
-/* 9b557556c4f8f35ac55523ea57292c19 
 
-https://api.openweathermap.org/data/2.5/weather?q={germany}&appid={45b3e3cdb0ec8b63f1e568e66f3b16db}
 
-*/
-
-/* 
-17:35
-
-https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
-*/
-
-const apiKey = "9b557556c4f8f35ac55523ea57292c19";
-const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
+const apiKey = "your apiKey";
+const apiUrl = "link to openweather";
 
 const searchBox = document.querySelector(".search input");
 const searchBtn = document.querySelector(".search button");
